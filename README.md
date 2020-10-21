@@ -17,7 +17,7 @@ When 7 numbers are entered, the program starts looking for random tickets with m
 
 The time spent on the search is considered, at the rate of one ticket per week.
 
-<img src="http://g.recordit.co/6urOpooBbr.gif" width="50%"></p>
+<img src="http://g.recordit.co/LCkTjdG7mQ.gif" width="50%"></p>
 
 ## Features
 
