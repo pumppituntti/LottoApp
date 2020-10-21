@@ -32,12 +32,13 @@ public class Lotto {
         } while (Arrays.containsSameValues(userLotto, randomLotto) != ArraySize);
 
         userLotto = Arrays.sort(userLotto);
-        Arrays.print("Your Lotto", userLotto);
+        randomLotto = Arrays.sort(randomLotto);
+        Arrays.print("Your Lotto", Arrays.prefix(userLotto));
+        Arrays.print("Random Lotto", Arrays.prefix(randomLotto));
 
         System.out.println("You won!");
         years = weeks / 52;
         System.out.println("It tooks " + years + " years (" + weeks + " weeks)!");
-
     }
 
     /**

@@ -101,7 +101,7 @@ public class Arrays {
      * @param array       the array whose elements you want to print.
      */
 
-    public static void print(String description, int[] array) {
+    public static void print(String description, String[] array) {
         System.out.print(description + ": ");
         System.out.print("[");
         for (int i = 0; i < array.length; i++) {
@@ -111,6 +111,27 @@ public class Arrays {
                 System.out.print(array[i] + ", ");
         }
         System.out.println("]");
+    }
+
+    /**
+     * The prefix method adds a prefix "0" to the elements of the array.
+     *
+     * @param array the given array, to the elements of which you want to add a prefix.
+     * @return ready array with prefixes.
+     */
+
+    public static String[] prefix(int[] array) {
+        String[] prefixArray = new String[array.length];
+        for (int i = 0; i < prefixArray.length; i++) {
+            prefixArray[i] = "";
+        }
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < 10)
+                prefixArray[i] = "0" + array[i];
+            else
+                prefixArray[i] += array[i];
+        }
+        return prefixArray;
     }
 }
 
