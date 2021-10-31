@@ -26,6 +26,3 @@ To do this, you need to change the value of the variables (ArraySize and ArrayMa
 
 <img src="https://i.ibb.co/28vPWHs/example.png" width="50%"></p>
 
-## License
-
-Lottoapp is a free distribution application made by Artem Tolpa.
